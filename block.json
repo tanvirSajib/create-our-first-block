@@ -1,10 +1,10 @@
 {
-    "apiVersin" : 3,
-    "name": "blocks-course/firstblock",
-    "title":"A first block",
-    "description": "My First Block description",
-    "category" :"text",
-    "icon":"format-status",
-    "textdomain": "firstblock",
-    "editorScript":"file:./index.js"
+	"apiVersin": 3,
+	"name": "blocks-course/firstblock",
+	"title": "A first block",
+	"description": "My First Block description",
+	"category": "text",
+	"icon": "format-status",
+	"textdomain": "firstblock",
+	"editorScript": "file:./build/index.js"
 }
