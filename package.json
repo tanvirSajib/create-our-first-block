@@ -17,11 +17,16 @@
 		"test:e2e": "wp-scripts test-e2e",
 		"test:unit": "wp-scripts test-unit-js"
 	},
+	"prettier": "@wordpress/prettier-config",
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"description": "",
 	"dependencies": {
 		"@wordpress/scripts": "^30.9.0"
+	},
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "^22.2.0",
+		"@wordpress/prettier-config": "^4.16.0"
 	}
 }

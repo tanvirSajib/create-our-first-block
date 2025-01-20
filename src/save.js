@@ -1,7 +1,6 @@
-import { useBlockProps } from "@wordpress/block-editor";
-
+import { useBlockProps } from '@wordpress/block-editor';
 
 export default function Save() {
-    const blockProps = useBlockProps.save();
-    return <p {...blockProps}>Save JSX</p>;
+	const blockProps = useBlockProps.save();
+	return <p { ...blockProps }>Save JSX</p>;
 }
