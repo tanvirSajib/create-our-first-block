@@ -1,13 +1,10 @@
-// var registerBlockType = wp.blocks.registerBlockType;
-// var createElement = wp.element.createElement;
-
 import { registerBlockType } from '@wordpress/blocks';
+import edit from "./edit";
+import Save from "./save";
+
+import './style.scss';
 
 registerBlockType( 'blocks-course/firstblock', {
-	edit: function () {
-		return <p className="class tanvir">Edit js</p>;
-	},
-	save: function () {
-		return <p className="class tanvir">Save js</p>;
-	},
+	edit,
+	save: Save,
 } );
